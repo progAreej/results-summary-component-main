@@ -1,0 +1,146 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    
+  
+}
+.card{
+    border-radius: 20px;
+    background-color:  hsl(216, 50%, 16%);
+    width: 380px;
+    padding:30px;
+    
+}
+.img-one{
+    border-radius: 20px ;
+    width:380px;
+     height:400px;
+     display: block;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    color:hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+  
+}
+.two{
+    display: flex;
+   
+}
+h2{
+   
+    font-weight: 40;
+    font-family:'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+}
+.right-side{
+    text-align: right;
+}
+.left-side{
+    display: flex;
+    text-align: left;
+}
+.img-p{
+    border-radius: 100%;
+    border: 1px solid rgb(244, 241, 241);
+   margin: 15px;
+}
+.last{
+    display: flex;
+}
+.last h3{
+    color: white;
+    font-size: 20px;
+    
+
+}
+.card svg{
+    margin: 24px;
+}
+.pic2{
+    padding: 24px 0px 0px 50px;
+}
+.two p{
+    font-size: 20px;
+    text-align: left;
+}
+.days{
+    text-align: right;
+    display: flex;
+    margin-left:50px;
+}
+
+.text-hover:hover{
+    color:hsl(178, 100%, 50%);
+}
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+.img-one :hover{
+    background-color: red;
+
+}
+.pic1{
+    display: flex;
+    padding: -10px;
+}
+
+@media all and (max-width:375px) {
+    .card{
+        border-radius: 20px;
+        background-color: hsl(216, 50%, 16%);
+        width: 320px;
+        padding:30px;
+        
+    }
+    .img-one{
+        border-radius: 20px ;
+        width:320px;
+         height:340px;
+    }
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(30, 30, 149);
+    border-radius: 20px;
+  }
+  
+  
+.container:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.text {
+
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+  }
+  .container {
+    position: relative;
+    width: 100%;
+   
+  }
+  
